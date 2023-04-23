@@ -152,8 +152,8 @@ def get_blog_setting():
         from blog.models import BlogSettings
         if not BlogSettings.objects.count():
             setting = BlogSettings()
-            setting.sitename = 'djangoblog'
-            setting.site_description = '基于Django的博客系统'
+            setting.sitename = 'MakeSomeNoise'
+            setting.site_description = '做你自己，听别人说'
             setting.site_seo_description = '基于Django的博客系统'
             setting.site_keywords = 'Django,Python'
             setting.article_sub_length = 300
